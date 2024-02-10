@@ -6,11 +6,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*General styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
 /*Header*/
-header {background-color:aqua;}
+header {
+    background-color:aqua;
+}
 
 /*Main*/
-main {background-color:blueviolet;}
+main {
+    background-color:blueviolet;
+    /*Make main content to push footer down*/
+    flex: 1 0 auto;
+}
 
 /*Footer*/
-footer {background-color:gray;}
+footer {
+    background-color:gray;
+}
