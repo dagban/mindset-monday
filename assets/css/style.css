@@ -18,7 +18,12 @@ body {
 
 /*Header*/
 header {
-    background-color:aqua;
+    background-color:white;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 3px 2px darkgray;
 }
 #logo {
     height: 4rem;
