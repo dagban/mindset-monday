@@ -13,13 +13,16 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
+    font-family: "Montserrat", sans-serif;
 }
 
 /*Header*/
 header {
     background-color:aqua;
 }
-
+#logo {
+    height: 4rem;
+}
 /*Main*/
 main {
     background-color:blueviolet;
