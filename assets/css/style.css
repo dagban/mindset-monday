@@ -37,14 +37,23 @@ header a {
     font-size: 115%;
     letter-spacing: 1px;
     list-style-type: none;
-    justify-items: right;
+    text-align: right;
 }
 #menu>li {
     margin-bottom: 1em;
 }
 .active {
-    border-bottom: solid 2px #252525;
-    max-width: fit-content;
+    font-size:120%;
+    text-decoration-line:underline;
+    text-decoration-color: #ffde59;
+    text-decoration-thickness: 60%;
+    text-underline-position: below;
+}
+/*Navbar styles with dropdown toggle*/
+nav{
+    background-color: white;
+    width: 100%;
+    display: none;
 }
 /*Main*/
 main {
