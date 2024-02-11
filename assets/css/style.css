@@ -119,8 +119,19 @@ main {
     text-align: center;
     text-transform: uppercase;
     margin-top: 5%;
-    padding: 2%;
-    
+    padding: 2%;  
+    height: 4rem;
+
+}
+#btn-bord {
+width: 50%;
+height: 4rem;
+background-color:none;
+border: #000000 2px solid;
+position: absolute;
+bottom: 2px;
+left: 17%;
+
 
 }
   /*Media query for tablets and screens larger than 768px*/
