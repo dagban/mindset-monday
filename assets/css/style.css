@@ -90,6 +90,43 @@ main {
     margin-top: 70px;
 }
 
+  /*Media query for tablets and screens larger than 768px*/
+
+  @media screen and (min-width:768px) {
+
+    /*Header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-right: 1rem;
+        padding-top: 1rem;
+    }
+
+    #menu a:hover {
+        color: #ffde59;
+        background-color: #252525;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    main {
+        margin-top: 90px;
+    }
+}
+
 /*Footer*/
 footer {
     background-color: #ffde59;
@@ -109,39 +146,4 @@ footer {
         color: #000000;
     }
 
-    /*Media query for tablets and screens larger than 768px*/
-
-    @media screen and (min-width:768px) {
-
-        /*Header*/
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-
-        }
-
-        #menu {
-            display: flex;
-        }
-
-        #menu>li {
-            padding-right: 1rem;
-            padding-top: 1rem;
-        }
-
-        #menu a:hover {
-            color: #ffde59;
-            background-color: #252525;
-        }
-
-        .nav-toggle-label {
-            display: none;
-        }
-
-        main {
-            margin-top: 90px;
-        }
-    }
+  
