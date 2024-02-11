@@ -18,7 +18,7 @@ body {
 
 /*Header*/
 header {
-    background-color:white;
+    background-color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -28,6 +28,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -46,37 +47,43 @@ header {
     padding-top: 10px;
     position: relative;
     padding-top: 20px;
-    }
+}
+
 header a {
     text-decoration: none;
     color: #252525;
     text-transform: uppercase;
 }
+
 #menu {
     font-size: 115%;
     list-style-type: none;
     text-align: right;
     align-items: end;
 }
+
 #menu>li {
     margin-bottom: 1em;
 }
+
 .active {
-    font-size:120%;
-    text-decoration-line:underline;
+    font-size: 120%;
+    text-decoration-line: underline;
     text-decoration-color: #ffde59;
     text-decoration-thickness: 60%;
     text-underline-position: below;
 }
+
 /*Navbar styles with dropdown toggle*/
-nav{
+nav {
     background-color: white;
     width: 100%;
     display: none;
 }
+
 /*Main*/
 main {
-    background-color:blueviolet;
+    background-color: blueviolet;
     /*Make main content to push footer down*/
     flex: 1 0 auto;
     margin-top: 70px;
@@ -85,50 +92,55 @@ main {
 /*Footer*/
 footer {
     background-color: #ffde59;
+
     #social-networks {
         text-align: center;
         padding: 20px;
-        display:flex;
+        display: flex;
         justify-content: space-evenly;
         list-style-type: none;
-        
+
     }
-    #social-networks i{
+
+    #social-networks i {
         font-size: 150%;
         padding: 5%;
-        color:#000000;
-    }
-/*Media query for tablets and screens larger than 768px*/
-
-@media screen and (min-width:768px) {
-
-    /*Header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-left: 1 rem;
-
+        color: #000000;
     }
 
-    #menu {
-        display: flex;
-    }
+    /*Media query for tablets and screens larger than 768px*/
 
-    #menu>li {
-        padding-right: 1rem;
-        padding-top: 1rem;
-    }
+    @media screen and (min-width:768px) {
 
-    #menu a:hover {
-        color: #ffde59;
-        background-color: #252525;
-    }
+        /*Header*/
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1 rem;
 
-    .nav-toggle-label {
-        display: none;
-    }
-    main{
-        margin-top: 90px;
+        }
+
+        #menu {
+            display: flex;
+        }
+
+        #menu>li {
+            padding-right: 1rem;
+            padding-top: 1rem;
+        }
+
+        #menu a:hover {
+            color: #ffde59;
+            background-color: #252525;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        main {
+            margin-top: 90px;
+        }
     }
