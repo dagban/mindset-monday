@@ -100,14 +100,28 @@ main {
 }
 #cover-text {
     background-color: #007BFF;
-    border-radius: 0% 5% 5% 0%;
     position: absolute;
-    bottom: 75px;
+    bottom: 85px;
     width: 80%;
     min-height: 150px;
     padding: 5%;
     text-align: center;
     color: white;
+}
+#cover-btn {
+    background-color: #ffde59;
+    color: #000000;
+    width: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 15%;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+    padding: 2%;
+    
+
 }
   /*Media query for tablets and screens larger than 768px*/
 
