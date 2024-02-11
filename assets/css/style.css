@@ -98,20 +98,17 @@ main {
     background-size: cover;
 }
 #cover-text {
-    width: 90%;
-    height: auto;
-    background-image: url("../images/hero-blue-blob.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom;
-    padding-top: 500px;
-    margin-left: 5% ;
-    margin-bottom: 5%;
-    padding-bottom: 15%;
-    padding-left: 5%;
-    padding-right: 5%;
+    border-radius:16% 10% 27% 13% / 46% 30% 24% 22%;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    margin-top: 350px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10%;
     text-align: center;
-}
+    width: 80%px;
+  }
   /*Media query for tablets and screens larger than 768px*/
 
   @media screen and (min-width:768px) {
