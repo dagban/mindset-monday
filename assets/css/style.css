@@ -96,19 +96,19 @@ main {
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
+    position: relative;
 }
 #cover-text {
-    border-radius:16% 10% 27% 13% / 46% 30% 24% 22%;
-    height: 200px;
-    background-color: aqua;
-    position: fixed;
-    margin-top: 350px;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10%;
+    background-color: #007BFF;
+    border-radius: 0% 5% 5% 0%;
+    position: absolute;
+    bottom: 75px;
+    width: 80%;
+    min-height: 150px;
+    padding: 5%;
     text-align: center;
-    width: 80%px;
-  }
+    color: white;
+}
   /*Media query for tablets and screens larger than 768px*/
 
   @media screen and (min-width:768px) {
