@@ -84,10 +84,18 @@ nav {
 
 /*Main*/
 main {
-    background-color: blueviolet;
     /*Make main content to push footer down*/
     flex: 1 0 auto;
     margin-top: 70px;
+}
+/*Hero*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/hero-mobile.png");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
 }
 
   /*Media query for tablets and screens larger than 768px*/
@@ -125,11 +133,19 @@ main {
     main {
         margin-top: 90px;
     }
+
+/*Hero*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/hero.png");
+}
 }
 
 /*Footer*/
 footer {
     background-color: #ffde59;
+}
 
     #social-networks {
         text-align: center;
