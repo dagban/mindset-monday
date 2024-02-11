@@ -97,7 +97,21 @@ main {
     background-position:center center;
     background-size: cover;
 }
-
+#cover-text {
+    width: 90%;
+    height: auto;
+    background-image: url("../images/hero-blue-blob.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding-top: 500px;
+    margin-left: 5% ;
+    margin-bottom: 5%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
   /*Media query for tablets and screens larger than 768px*/
 
   @media screen and (min-width:768px) {
@@ -109,7 +123,6 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-
     }
 
     #menu {
